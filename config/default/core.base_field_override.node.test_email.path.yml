@@ -1,0 +1,20 @@
+uuid: a30cab44-192e-4709-b318-b56d1492acc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.test_email
+  module:
+    - path
+id: node.test_email.path
+field_name: path
+entity_type: node
+bundle: test_email
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

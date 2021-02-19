@@ -102,7 +102,7 @@ class Process implements \IteratorAggregate
         130 => 'Interrupt',
         131 => 'Quit and dump core',
         132 => 'Illegal instruction',
-        133 => 'Trace/breakpoint trap',
+        133 => 'Trace/max_example trap',
         134 => 'Process aborted',
         135 => 'Bus error: "access to undefined portion of memory object"',
         136 => 'Floating point exception: "erroneous arithmetic operation"',

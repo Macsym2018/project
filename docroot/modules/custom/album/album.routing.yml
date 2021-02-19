@@ -1,0 +1,39 @@
+album.content:
+  path: '/album'
+  defaults:
+    _controller: '\Drupal\album\Controller\AlbumController::content'
+    _title: 'Album'
+  requirements:
+    _permission: 'access content'
+
+album.form:
+  path: '/dummy-photos'
+  defaults:
+    _title: 'Photos form'
+    _form: '\Drupal\album\Form\PhotosForm'
+  requirements:
+    _access: 'TRUE'
+
+album.contentForm:
+  path: 'dummy-photos-example'
+  defaults:
+    _controller: '\Drupal\album\Controller\AlbumController::formContent'
+    _title: 'Albums&Photos'
+  requirements:
+    _permission: 'access content'
+
+entity.announcement.add_form:
+  path: '/admin/config/system/site-announcements/add'
+  defaults:
+    _entity_form: 'announcement.add'
+    _title: 'Add announcement'
+  requirements:
+    _permission: 'administer content'
+
+entity.announcement.collection:
+  path: '/admin/config/system/site-announcements'
+  defaults:
+    _entity_list: 'announcement'
+    _title: 'Site Announcements'
+  requirements:
+    _permission: 'administer content'

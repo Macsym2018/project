@@ -1,0 +1,25 @@
+uuid: c096e722-2376-423b-b76a-572f37a7773d
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+    - field.storage.comment.field_test
+  module:
+    - album
+id: comment.comment.field_test
+field_name: field_test
+entity_type: comment
+bundle: comment
+label: Test
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: ''
+    first_name: null
+    last_name: null
+default_value_callback: ''
+settings: {  }
+field_type: realname

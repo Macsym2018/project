@@ -1,0 +1,22 @@
+uuid: 6b74afa9-ce4b-4925-b6c2-aa2b0d097420
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.prpject_with_multiple
+id: node.prpject_with_multiple.promote
+field_name: promote
+entity_type: node
+bundle: prpject_with_multiple
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

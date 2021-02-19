@@ -1,0 +1,14 @@
+label: 'Artículos Recientes'
+display:
+  default:
+    display_options:
+      title: 'Artículos Recientes'
+      filters:
+        langcode:
+          expose:
+            description: ''
+      empty:
+        area:
+          content:
+            value: "<p>Actualmente no hay artículos recientes</p>\r\n"
+            format: basic_html

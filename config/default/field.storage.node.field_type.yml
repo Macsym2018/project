@@ -1,0 +1,30 @@
+uuid: bc41aa98-4a09-47a0-be54-7bac0aa0290e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_type
+field_name: field_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Feature
+      label: Feature
+    -
+      value: Bug
+      label: Bug
+    -
+      value: Story
+      label: Story
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

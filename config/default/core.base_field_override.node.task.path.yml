@@ -1,0 +1,20 @@
+uuid: 8ca469af-027d-421e-ad6a-acc6462566bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.task
+  module:
+    - path
+id: node.task.path
+field_name: path
+entity_type: node
+bundle: task
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

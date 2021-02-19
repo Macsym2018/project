@@ -1,0 +1,37 @@
+uuid: 9893fcd4-f5d5-44bb-abfd-aea11a86af8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.test_email.body
+    - field.field.node.test_email.field_email
+    - node.type.test_email
+  module:
+    - text
+    - user
+id: node.test_email.default
+targetEntityType: node
+bundle: test_email
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_email:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

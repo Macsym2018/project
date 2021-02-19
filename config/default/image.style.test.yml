@@ -1,0 +1,23 @@
+uuid: 8a561f76-efa6-4669-bf13-b61e9dc5f41a
+langcode: en
+status: true
+dependencies: {  }
+name: test
+label: Test
+effects:
+  487c9f76-8e73-4207-9406-9fd727add333:
+    uuid: 487c9f76-8e73-4207-9406-9fd727add333
+    id: image_scale
+    weight: 1
+    data:
+      width: 200
+      height: 200
+      upscale: false
+  5014fe89-f216-476e-999e-23fd14d30e3c:
+    uuid: 5014fe89-f216-476e-999e-23fd14d30e3c
+    id: image_rotate
+    weight: 2
+    data:
+      degrees: 90
+      bgcolor: '#FFFFFF'
+      random: false

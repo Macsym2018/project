@@ -1,0 +1,23 @@
+uuid: af7f3687-f3f5-4663-ac67-4da7e67aef91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type
+    - node.type.task
+  module:
+    - options
+id: node.task.field_type
+field_name: field_type
+entity_type: node
+bundle: task
+label: Type
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '<li>Story</li>'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

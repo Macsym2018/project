@@ -1,0 +1,21 @@
+uuid: 75d4a0c9-bc0c-4f9d-9933-ed04e94647e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_testdata
+    - node.type.test_type
+  module:
+    - datetime
+id: node.test_type.field_testdata
+field_name: field_testdata
+entity_type: node
+bundle: test_type
+label: TestData
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,21 @@
+uuid: 07a00d92-8de4-4ed4-80fe-1724f2fad180
+langcode: en
+status: false
+dependencies:
+  module:
+    - album
+  theme:
+    - mytheme
+id: mytheme_albumblock
+theme: mytheme
+region: content
+weight: 0
+provider: null
+plugin: album
+settings:
+  id: album
+  label: 'Album block'
+  provider: album
+  label_display: visible
+  selected_album: '1'
+visibility: {  }

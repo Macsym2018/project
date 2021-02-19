@@ -1,0 +1,23 @@
+uuid: 35dcfd26-1425-401c-9568-9be977851dc3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.prpject_with_multiple
+  module:
+    - text
+id: node.prpject_with_multiple.body
+field_name: body
+entity_type: node
+bundle: prpject_with_multiple
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

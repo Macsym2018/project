@@ -1,0 +1,21 @@
+uuid: ff29b70f-2eca-45df-a130-0f14ca0d2b81
+langcode: en
+status: false
+dependencies:
+  module:
+    - album
+  theme:
+    - bootstrap
+id: albumblock
+theme: bootstrap
+region: content
+weight: 0
+provider: null
+plugin: album
+settings:
+  id: album
+  label: 'Album block'
+  provider: album
+  label_display: visible
+  selected_album: '1'
+visibility: {  }

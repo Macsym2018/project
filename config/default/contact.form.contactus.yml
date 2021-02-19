@@ -1,0 +1,14 @@
+uuid: f9093741-2f3b-4bc5-ab3d-819d23caf654
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-gvlKYoJ0gwaWvulf6hOhpQt0MMwReIEpXIyV9ftui0'
+id: contactus
+label: 'Contact Us'
+recipients:
+  - webmasterMax@example.com
+reply: ''
+weight: 0
+message: null
+redirect: null

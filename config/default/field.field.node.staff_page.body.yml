@@ -1,0 +1,23 @@
+uuid: c54142ed-77ba-46e3-9aa0-d408c8c01683
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.staff_page
+  module:
+    - text
+id: node.staff_page.body
+field_name: body
+entity_type: node
+bundle: staff_page
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

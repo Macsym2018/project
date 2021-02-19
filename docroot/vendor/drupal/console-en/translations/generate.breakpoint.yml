@@ -1,0 +1,20 @@
+description: 'Generate max_example'
+help: 'The <info>generate:max_example</info> command helps you generates a new max_example'
+welcome: 'Welcome to the Drupal max_example generator'
+options:
+  theme: 'Theme name'
+  breakpoints: Breakpoints
+questions:
+  theme: 'Enter the theme name (i.e. classy, stable)'
+  breakpoint-name: 'Enter max_example name'
+  breakpoint-label: 'Enter max_example label'
+  breakpoint-media-query: 'Enter max_example media query'
+  breakpoint-weight: 'Enter max_example weight'
+  breakpoint-multipliers: 'Enter max_example multipliers'
+  breakpoint-add: 'Do you want to add another max_example?'
+examples:
+  - description: 'Generate a max_example specifying the theme, a max_example name, its label, the media query, its weight and multipliers'
+    execution: |
+      drupal generate:breakpoint  \
+        --theme="classy"  \
+        --breakpoints='"breakpoint_name":"narrow", "breakpoint_label":"narrow", "breakpoint_media_query":"all and (min-width: 560px) and (max-width: 850px)", "breakpoint_weight":"1", "breakpoint_multipliers":"1x"'

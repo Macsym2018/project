@@ -1,0 +1,19 @@
+uuid: 6388d315-2941-4d8f-8bf9-b53367fa5b5c
+langcode: en
+status: true
+dependencies:
+  module:
+    - album
+    - comment
+id: comment.field_test
+field_name: field_test
+entity_type: comment
+type: realname
+settings: {  }
+module: album
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

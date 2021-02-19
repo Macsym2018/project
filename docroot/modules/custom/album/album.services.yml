@@ -1,0 +1,11 @@
+services:
+  album.hello:
+    class: Drupal\album\HelloService
+
+  album.album:
+    class: Drupal\album\AlbumService
+    arguments: ['@http_client','@cache.default']
+
+  plugin.manager.unit:
+    class: Drupal\album\UnitManager
+    arguments: ['@cache.discovery', '@module_handler' ]

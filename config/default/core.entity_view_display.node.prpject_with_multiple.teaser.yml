@@ -1,0 +1,31 @@
+uuid: b43c3c47-0f71-424a-b6f8-4b9659d33a4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.prpject_with_multiple.body
+    - node.type.prpject_with_multiple
+  module:
+    - text
+    - user
+id: node.prpject_with_multiple.teaser
+targetEntityType: node
+bundle: prpject_with_multiple
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

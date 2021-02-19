@@ -1,0 +1,18 @@
+uuid: 8e6d6b70-d1a1-4776-93a5-942c6afab719
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.test_email
+id: node.test_email.title
+field_name: title
+entity_type: node
+bundle: test_email
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

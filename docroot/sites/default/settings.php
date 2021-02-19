@@ -255,6 +255,11 @@ $config_directories = array(
     CONFIG_SYNC_DIRECTORY => dirname($app_root) . '/config/' . basename($site_path),
 );
 
+/*$config_directories = [
+  CONFIG_ACTIVE_DIRECTORY => 'sites/default/config/active',
+  CONFIG_SYNC_DIRECTORY => 'sites/default/config/sync',
+];*/
+
 /**
  * Settings:
  *
@@ -632,6 +637,7 @@ if ($settings['hash_salt']) {
  *   override in a services.yml file in the same directory as settings.php
  *   (definitions in this file will override service definition defaults).
  */
+# $settings['bootstrap_config_storage'] = array('Drupal\Core\Config\BootstrapConfigStorageFactory::class', 'getFileStorage');
 # $settings['bootstrap_config_storage'] = array('Drupal\Core\Config\BootstrapConfigStorageFactory', 'getFileStorage');
 
 /**
@@ -656,7 +662,8 @@ if ($settings['hash_salt']) {
  * configuration values in settings.php will not fire any of the configuration
  * change events.
  */
-# $config['system.file']['path']['temporary'] = '/tmp';
+# $config['system.file']['path']['temporary'] = '/tmp/';
+ $settings['file_temp_path'] = '/tmp';
 # $config['system.site']['name'] = 'My Drupal site';
 # $config['system.theme']['default'] = 'stark';
 # $config['user.settings']['anonymous'] = 'Visitor';
@@ -747,6 +754,11 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * will allow the site to run off of all variants of example.com and
  * example.org, with all subdomains included.
  */
+
+$settings['trusted_host_patterns'] = array(
+    '^test3.docksal',
+  );
+
 
 /**
  * The default list of directories that will be ignored by Drupal's file API.

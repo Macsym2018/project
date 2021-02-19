@@ -1,0 +1,6 @@
+<?php
+
+function mytheme_theme_suggestions_input_alter(array &$suggestions, array $variables) {
+
+    $suggestions[] = 'input__' . 'mytheme-input-search';
+}

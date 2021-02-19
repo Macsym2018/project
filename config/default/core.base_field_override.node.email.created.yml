@@ -1,0 +1,18 @@
+uuid: 2b278c3e-0807-4c9c-9d6d-cc68cccdaaa1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.email
+id: node.email.created
+field_name: created
+entity_type: node
+bundle: email
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,0 +1,18 @@
+uuid: eb8227e2-9370-406e-ac15-b8928353f545
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.prpject_with_multiple
+id: node.prpject_with_multiple.created
+field_name: created
+entity_type: node
+bundle: prpject_with_multiple
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

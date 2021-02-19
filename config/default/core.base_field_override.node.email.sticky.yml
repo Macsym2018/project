@@ -1,0 +1,22 @@
+uuid: 4af2f901-2a25-40cb-ad2f-5940cf8edc30
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.email
+id: node.email.sticky
+field_name: sticky
+entity_type: node
+bundle: email
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

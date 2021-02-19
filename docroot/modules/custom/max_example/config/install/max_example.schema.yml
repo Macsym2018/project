@@ -1,0 +1,7 @@
+max_example.company:
+  type: config_object
+  label: 'Drupal form settings'
+  mapping:
+    company_name:
+      type: string
+      label: 'A company name'

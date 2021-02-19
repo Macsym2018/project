@@ -1,0 +1,22 @@
+uuid: a250694a-2c1d-4b81-aa86-3148c54f9a89
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.prpject_with_multiple
+id: node.prpject_with_multiple.status
+field_name: status
+entity_type: node
+bundle: prpject_with_multiple
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

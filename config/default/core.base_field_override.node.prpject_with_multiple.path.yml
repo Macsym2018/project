@@ -1,0 +1,20 @@
+uuid: 2b9a749d-c717-409e-9f5d-0a1b41e8e27d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.prpject_with_multiple
+  module:
+    - path
+id: node.prpject_with_multiple.path
+field_name: path
+entity_type: node
+bundle: prpject_with_multiple
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

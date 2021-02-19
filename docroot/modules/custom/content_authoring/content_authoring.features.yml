@@ -1,0 +1,3 @@
+excluded:
+  - views.view.my_content_
+required: true

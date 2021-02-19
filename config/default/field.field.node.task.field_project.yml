@@ -1,0 +1,28 @@
+uuid: 1740c241-3ed6-4d1d-8411-4d768d85d666
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_project
+    - node.type.project
+    - node.type.task
+id: node.task.field_project
+field_name: field_project
+entity_type: node
+bundle: task
+label: Project
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      project: project
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

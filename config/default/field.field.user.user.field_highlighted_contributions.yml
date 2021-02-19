@@ -1,0 +1,26 @@
+uuid: 736b5a2e-635e-4263-99e4-63a7ab35f3d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_highlighted_contributions
+  module:
+    - user
+id: user.user.field_highlighted_contributions
+field_name: field_highlighted_contributions
+entity_type: user
+bundle: user
+label: 'Highlighted contributions'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: my_content_reference_view
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

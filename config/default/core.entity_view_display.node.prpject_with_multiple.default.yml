@@ -1,0 +1,29 @@
+uuid: ad414e58-961b-4ee4-862e-a16b6bbbacfa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.prpject_with_multiple.body
+    - node.type.prpject_with_multiple
+  module:
+    - text
+    - user
+id: node.prpject_with_multiple.default
+targetEntityType: node
+bundle: prpject_with_multiple
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

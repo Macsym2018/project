@@ -1,0 +1,21 @@
+uuid: e98ad785-bf71-4a8c-a7e6-8d1252ccd6bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - album
+  theme:
+    - bartik
+id: copyright
+theme: bartik
+region: footer_fourth
+weight: 0
+provider: null
+plugin: copyright_block
+settings:
+  id: copyright_block
+  label: Copyright
+  provider: album
+  label_display: visible
+  company_name: 3.6576
+visibility: {  }

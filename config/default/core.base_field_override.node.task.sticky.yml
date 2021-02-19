@@ -1,0 +1,22 @@
+uuid: 5d5ba23b-c328-4fee-8205-d5a1c3ac0c98
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.task
+id: node.task.sticky
+field_name: sticky
+entity_type: node
+bundle: task
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

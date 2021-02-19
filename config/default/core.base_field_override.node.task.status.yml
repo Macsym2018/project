@@ -1,0 +1,22 @@
+uuid: 9213c887-7a49-49ab-badb-4d0eb9fbd538
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.task
+id: node.task.status
+field_name: status
+entity_type: node
+bundle: task
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

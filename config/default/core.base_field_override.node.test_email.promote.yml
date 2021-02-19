@@ -1,0 +1,22 @@
+uuid: 45bf2173-29ed-4d77-8191-38787f6f982b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.test_email
+id: node.test_email.promote
+field_name: promote
+entity_type: node
+bundle: test_email
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

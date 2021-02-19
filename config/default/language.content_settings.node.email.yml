@@ -1,0 +1,18 @@
+uuid: c108a4dd-b445-41f8-9ad2-a320897063be
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.email
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.email
+target_entity_type_id: node
+target_bundle: email
+default_langcode: site_default
+language_alterable: false

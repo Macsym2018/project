@@ -1,0 +1,21 @@
+uuid: 34c04083-658f-446f-9772-bb4602277339
+langcode: en
+status: true
+dependencies:
+  module:
+    - album
+  theme:
+    - bartik
+id: albumblock_2
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: album
+settings:
+  id: album
+  label: 'Album block'
+  provider: album
+  label_display: visible
+  selected_album: '1'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 50c4217a-162f-47c2-9b08-cc7b3770ae37
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.prpject_with_multiple
+id: node.prpject_with_multiple.sticky
+field_name: sticky
+entity_type: node
+bundle: prpject_with_multiple
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

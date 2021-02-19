@@ -1,0 +1,24 @@
+uuid: ce21cac0-1459-4e6b-aae0-75021d9cc7b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.tags
+  module:
+    - views
+  theme:
+    - bootstrap
+id: views_block__tags_block_1
+theme: bootstrap
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:tags-block_1'
+settings:
+  id: 'views_block:tags-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,18 @@
+uuid: 3f8564f5-8bf6-4a40-a59b-921568663409
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: test_email
+type: test_email
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,33 @@
+uuid: 1ec7357a-8503-4247-a10b-c5472e92b5c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.test_email.body
+    - field.field.node.test_email.field_email
+    - node.type.test_email
+  module:
+    - text
+    - user
+id: node.test_email.teaser
+targetEntityType: node
+bundle: test_email
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_email: true
+  langcode: true

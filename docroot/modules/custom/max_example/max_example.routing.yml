@@ -1,0 +1,7 @@
+max_example.form:
+  path: '/drupal-example-form'
+  defaults:
+    _title: 'Example form'
+    _form: '\Drupal\max_example\Form\ExampleForm'
+  requirements:
+    _access: 'TRUE'

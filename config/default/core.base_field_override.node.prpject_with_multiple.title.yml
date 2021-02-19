@@ -1,0 +1,18 @@
+uuid: ed5af335-2a00-4d04-8aad-ca9e442322bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.prpject_with_multiple
+id: node.prpject_with_multiple.title
+field_name: title
+entity_type: node
+bundle: prpject_with_multiple
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

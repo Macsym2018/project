@@ -1,0 +1,12 @@
+uuid: 21d0e560-116a-431e-b670-384ea33f9bda
+langcode: en
+status: true
+dependencies: {  }
+id: task_and_project_reference
+label: 'Task and Project reference'
+enabled: true
+first_field: field_project
+second_field: field_tasks
+bundles:
+  node:
+    - task

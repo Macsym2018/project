@@ -1,0 +1,22 @@
+uuid: c6f24d34-d90a-4f24-80b9-3ea8438789aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.email
+id: node.email.status
+field_name: status
+entity_type: node
+bundle: email
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
